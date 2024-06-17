@@ -1,5 +1,6 @@
 import keras
 import numpy as np
+
 from model import Model
 
 
@@ -14,7 +15,11 @@ def main():
     y_test: np.ndarray = dataset[1][1]
 
     m = Model()
-    m.train(x_train, y_train)
+
+    iteration = 1
+    for _ in range(iteration):
+        m.train(x_train, y_train)
+        m.test(x_test, y_test)
 
 
 if __name__ == "__main__":
