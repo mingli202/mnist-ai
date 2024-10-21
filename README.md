@@ -7,4 +7,4 @@ Multi-layer Neural Network for the Mnist dataset using python from scratch (i.e.
 - Achieved an accuracy of 95% on the testing set.
 - Can recognize handwritten numbers from the interactive UI.
 
-<iframe width="560" height="315" src="https://youtu.be/ey127qKYm4g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Handwritten numbers](https://img.youtube.com/vi/ey127qKYm4g/0.jpg)](https://youtu.be/ey127qKYm4g)
