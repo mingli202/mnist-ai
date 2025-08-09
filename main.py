@@ -20,6 +20,8 @@ def main():
 
 
 def train():
+    print("training")
+
     dataset: tuple[tuple[np.ndarray, np.ndarray], tuple[np.ndarray, np.ndarray]] = (
         keras.datasets.mnist.load_data()
     )
@@ -64,6 +66,8 @@ def train():
 
 
 def draw():
+    print("drawing")
+
     with open(f, "r") as file:
         data = json.loads(file.read())
 
